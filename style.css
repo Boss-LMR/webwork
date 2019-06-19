@@ -1,0 +1,262 @@
+/*
+* @Author: ASUSPRO
+* @Date:   2019-06-16 13:31:54
+* @Last Modified by:   ASUSPRO
+* @Last Modified time: 2019-06-19 12:15:08
+*/
+*{
+	margin:0px;
+	padding:0px;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	color: #000;
+}
+.header-all{
+	width: 100%;
+	height:190px;
+}
+.header{
+	width: 1200px;
+	height: 190px;
+	margin:0px auto;
+	position:relative;
+}
+.header-top p{
+	float: right;
+}
+.logo{
+	position:absolute;
+	left:0px;
+	top: 80px;
+}
+.input1{
+	position:absolute;
+	width:600px;
+	height:50px;
+	left:425px;
+	top:86px;
+	text-indent:250px;
+	color:#ccc;
+}
+.input2{
+	width:57px;
+	height:51px;
+	border-left:1px solid rgb(204,204,204);
+	border-right:0px solid #000;
+	border-bottom:0px solid #000;
+	border-top:0px solid #000;
+	position:absolute;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position:center;
+	left:971px;
+	top:87px;
+	background-image: url('所需小图/search.png');
+}
+
+.cart{
+	position:absolute;
+	left: 1160px;
+	top: 90px;
+}
+
+.header-bottom>form>select{
+    border:0px;
+    font-size: 19px;
+    font-weight:bold;
+    position:absolute;
+    left:0px;
+    bottom:4px;
+}
+.ul1{
+	position:absolute;
+	left:170px;
+	bottom:5px;
+
+}
+.ul1 li:hover{
+	border-bottom: 2px solid green;
+	color:green;
+
+}
+.ul1 li{
+	text-align:center;
+	display:inline-block;
+	width:110px;
+	height:30px;
+	line-height:30px;
+}
+.bodys-1{
+	position:relative;
+	width:100%;
+	height:674px;
+}
+.bodys-0{
+	width:100%;
+	height:670px;
+	background-image: url('所需小图/banner.png');
+	background-position:center;
+}
+.bodys-1>img{
+	width:100%;
+	height:674px;
+}
+.bodys-2{
+	width:72px;
+	height:408px;
+	position:fixed;
+	right:0px;
+	top:190px;
+}
+.bodys-2 li{
+	text-align:center;
+	width:72px;
+	height:81px;
+	background-color: #000;
+	border-bottom:1px solid rgb(204,204,204);
+}
+.bodys-2 img{
+	padding-top: 25px;
+}
+.tables-1
+{
+	width:1200px;
+	height:200px;
+	margin:0px auto;
+}
+.tables-2
+{
+	width:1200px;
+	height:60px;
+	position:relative;
+}
+.tables-3
+{
+	position:absolute;
+	left:26px;
+	top:17px;
+}
+.tables-4{
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+table{
+	border-color: rgb(204,204,204);
+}
+table td{
+	width:120px;
+	height:45px;
+	text-align:center;
+}
+td a{
+	color:rgb(115,115,115);
+
+}
+table th{
+	background-color:rgb(229,229,229);
+
+}
+table td :visited {
+	color: green;
+}
+.Box{
+	width:1200px;
+	height:625px;
+	margin:20px auto;
+}
+.picture li{
+	position:relative;
+	text-align:center;
+	float:left;
+	width:275px;
+	height:290px;
+	border:1px solid rgb(204,204,204);
+}
+.picture>li>img
+{
+	margin-top: 30px;
+}
+.hr{
+	width:275px;
+	height:50px;
+	color: #fff;
+	background-color:rgba(0, 0, 0, 0.7);
+	position:absolute;
+	bottom:0px;
+}
+
+.picture li:hover .hr{
+	width:275px;
+	height:290px;
+	text-align: center;
+	position:absolute;
+}
+.picture li:hover .pp{
+	padding-top: 110px;
+	padding-bottom: 20px;
+}
+.picture li:hover p{
+	font-size: 25px;
+}
+.ends-1{
+	width:100%;
+	height:100px;
+	background-color: rgb(204,204,204);
+}
+.ul2{
+	width:1150px;
+	height:100px;
+	margin:0px auto;
+}
+.p0{
+	margin-top: 25px;
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+.p00{
+	font-size: 14px;
+}
+.li0{
+	margin-right: 70px;
+}
+.ul2 li{
+	width:230px;
+	height:100px;
+	display:inline-block;
+}
+.ul2>li img{
+	float: left;
+	margin-top: 25px;
+	margin-right:5px;
+}
+.ul2 p{
+	height:20px;
+}
+.ends-2{
+	width:100%;
+	height:100px;
+	background-color:rgb(50,50,50);
+	text-align: center;
+}
+.ul3{
+
+	padding-right: 30px;
+	padding-top:30px;
+	padding-bottom:15px;
+}
+.ul3 li
+{
+	color:#fff;
+	display:inline-block;
+	margin-left: 15px;
+	padding-left:15px;
+	border-left:1px solid #fff;
+}
+.span0{
+	color:#fff;
+}
